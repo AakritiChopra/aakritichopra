@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.navigation ul {
+  list-style: none;
+  text-align: right;
+}
+
+.navigation li {
+  padding: 0rem 0.5rem;
+  display: inline;
+}
+
+.navigation {
+  padding-top: 2rem;
+  color: white;
+  background-color: #f50057;
+  padding: 1rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.image-container {
+  padding: 2rem;
+}
+
+.image-container .image {
+  max-width: 355px;
+  display: block;
+  margin: auto;
+}
+.heading {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.heading h3 {
+  font-size: 2rem;
+}
+.heading p {
+  font-size: 1rem;
+}
+
+
+footer {
+    padding-top: 1rem;
+    background-color:#FCE4ED;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  footer ul li {
+    display: inline;
+  
+    padding-right: 0.5rem;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  
+
+  
+  .container 
+  {
+      margin:1rem 2rem;
+      padding:2rem;
+      background-color: #D8D2D5;
+      border-radius: 10px;
+      text-align: center;
+    
+  }
+
+  .container p 
+  {
+      padding:1rem;
+      font-weight: bold;
+  }
+
+  .link {
+    background: black;
+    outline: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.7rem;
+    border: 0;
+    padding: 0.8rem;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    
+  }
