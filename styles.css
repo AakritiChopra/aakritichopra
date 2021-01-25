@@ -160,6 +160,6 @@ footer ul li a {
 
 @media screen and(max-width:568px)
 {
-  
+  img.responsive {width: 350px;}
   
 }

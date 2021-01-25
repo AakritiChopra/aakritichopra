@@ -3,3 +3,8 @@ ul.no-bullets {
     padding: 0;
     margin: 0; 
   }
+  @media screen and(max-width:568px)
+  {
+    img.responsive {width: 350px;}
+    
+  }
